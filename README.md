@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## SkillSwap - Service Exchange Platform
+SkillSwap is a modern service exchange platform built with Next.js and TypeScript that enables users to offer their skills and services for monetary payment or reciprocal support.
 
-## Getting Started
+![Screenshot 2025-04-02 165253](https://github.com/user-attachments/assets/7913768d-de12-4ed7-83d2-ebc68c65428a)
 
-First, run the development server:
 
-```bash
-npm run dev
+# Features
+🔍 Service Marketplace
+
+Browse and search services by category, price range, and payment type
+Detailed service cards with provider ratings and information
+Advanced filtering system for refined service discovery
+
+## 💸 Secure Escrow Payment System
+
+Payments are securely held in escrow until service completion
+Service providers can confirm completion to release funds
+Comprehensive transaction history tracking
+Multiple payment method options (credit/debit, PayPal, bank transfer)
+
+## 📢 Community Alerts
+
+Public alerts board for urgent service needs
+Time-limited posts with automatic expiration
+Quick response functionality
+
+## 👤 User Management
+
+User profiles with ratings and service history
+Dashboard for managing offered services
+Separate views for buyers and sellers
+
+## 🛠️ Service Management
+
+Create, edit, and manage service listings
+Track service status (Available, In Progress, Completed)
+Support for both monetary and exchange-based services
+
+## Technology Stack
+
+Frontend: Next.js 13+ with App Router
+Language: TypeScript
+Styling: Tailwind CSS
+Icons: Lucide React
+State Management: React Hooks
+
+Getting Started
+Prerequisites
+
+Node.js 18.0 or higher
+npm or yarn
+
+## Installation
+
+# Clone the repository
+
+bashgit clone https://github.com/yourusername/skillswap.git
+cd skillswap
+
+Install dependencies
+
+bashnpm install
+# or
+yarn install
+
+Run the development server
+
+bashnpm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/page.tsx - Main application component containing all functionality
+Types and interfaces defined at the top of the file
+Mock data for demonstration purposes
 
-## Learn More
+## Key Components
 
-To learn more about Next.js, take a look at the following resources:
+Discover Tab: Browse available services
+Alerts Tab: Community alerts board
+My Services Tab: Manage your service offerings
+Transactions Tab: Track service payments and completions
+Escrow Payment System: Secure payment processing workflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Backend integration with database
+User authentication and authorization
+Real payment processing integration
+Messaging system between users
+Rating and review system
+Search optimization
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Design inspired by modern marketplace platforms like Airbnb
+Images sourced from Unsplash (for demonstration purposes)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Feel free to contribute to this project by submitting a pull request or opening an issue.

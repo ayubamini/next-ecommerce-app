@@ -98,6 +98,3 @@ Search optimization
 
 Design inspired by modern marketplace platforms like Airbnb
 Images sourced from Unsplash (for demonstration purposes)
-
-
-Feel free to contribute to this project by submitting a pull request or opening an issue.
